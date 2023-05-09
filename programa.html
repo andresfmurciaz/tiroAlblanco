@@ -10,16 +10,24 @@
     pincel.fillRect(0,0,600,400); // es una funcion
 
    
+    //division de canvas con colores
     pincel.fillStyle = "yellow"  //es una propiedad
     pincel.fillRect(0,0,600,135); // es una funcion
-
-
     
     pincel.fillStyle = "blue"  //es una propiedad
     pincel.fillRect(0,135,600,135); // es una funcion
 
     pincel.fillStyle = "red"  //es una propiedad
     pincel.fillRect(0,270,600,135); // es una funcion
+
+//crea un triangulo 
+pincel.fillStyle="pink";
+pincel.beginPath();
+pincel.moveTo(300,200);
+pincel.lineTo(200,400);
+pincel.lineTo(400,400);
+pincel.fill();
+
 
     
 </script>
