@@ -6,6 +6,14 @@
     var pantalla = document.querySelector("canvas");
     var pincel = pantalla.getContext("2d");
     //se crea un cuadro con el tamaño especifico
-    pincel.fillRect(0,0,600,400);
+    pincel.fillStyle = "lightgrey"  //es una propiedad
+    pincel.fillRect(0,0,600,400); // es una funcion
 
+    pincel.fillStyle = "red"  //es una propiedad
+    pincel.fillRect(0,0,200,400); // es una funcion
+
+    pincel.fillStyle = "blue"  //es una propiedad
+    pincel.fillRect(200,0,200,400); // es una funcion
+
+    
 </script>
